@@ -1,0 +1,17 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+keys.xml
+oreum_dark.png
+oreum_dark_pin.png
+oreum_light.png
+oreum_light_pin.png
+google-services.json
+oreumApp-release.aab

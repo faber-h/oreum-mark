@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/stamp_rv_item_padding"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/stamp_rv_item_image"
+        android:layout_width="@dimen/stamp_rv_item_image_size"
+        android:layout_height="@dimen/stamp_rv_item_image_size"
+        android:src="@drawable/oreum_dark"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/stamp_rv_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/jeju_myeongjo"
+        android:text="@string/test_word"
+        android:textColor="@color/black"
+        android:textSize="@dimen/stamp_rv_item_text_size"
+        android:textStyle="bold" />
+</LinearLayout>

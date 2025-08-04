@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <ImageView
+        tools:ignore="ContentDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/join_success_image_margin_top"
+        android:src="@drawable/ic_check_circle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/join_success_text_margin_top"
+        android:text="@string/join_success_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/join_success_title_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/join_success_text_margin_top"
+        android:paddingHorizontal="@dimen/join_success_content_padding_horizontal"
+        android:paddingBottom="@dimen/join_success_content_padding_vertical"
+        android:text="@string/join_success_content"
+        android:textSize="@dimen/join_success_content_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/join_success_border"
+        android:background="@color/green_middle_false" />
+
+    <TextView
+        android:id="@+id/join_success_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingVertical="@dimen/join_success_btn_padding_vertical"
+        android:text="@string/join_success_btn"
+        android:textColor="@color/green_middle"
+        android:textSize="@dimen/join_success_title_text_size"
+        android:textStyle="bold" />
+</LinearLayout>

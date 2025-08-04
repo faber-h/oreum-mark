@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.setting.SettingActivity">
+
+    <ImageView
+        android:id="@+id/setting_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/setting_margin"
+        android:layout_marginTop="@dimen/setting_margin"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/setting_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_nickname"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/setting_margin"
+        app:layout_constraintStart_toStartOf="@+id/setting_back"
+        app:layout_constraintTop_toBottomOf="@+id/setting_back"
+        app:drawableLeftCompat="@drawable/ic_my" />
+
+    <TextView
+        android:id="@+id/setting_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_logout"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/setting_margin"
+        app:layout_constraintStart_toStartOf="@+id/setting_back"
+        app:layout_constraintTop_toBottomOf="@+id/setting_nickname" />
+
+    <TextView
+        android:id="@+id/setting_withdrawal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_withdrawal"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/setting_margin"
+        app:layout_constraintStart_toStartOf="@+id/setting_back"
+        app:layout_constraintTop_toBottomOf="@+id/setting_logout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
