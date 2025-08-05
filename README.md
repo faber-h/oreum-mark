@@ -25,8 +25,8 @@
 # 🔍 주요 기능
 
 | 오름 목록 | 좋아요 | 스탬프 | 후기 |
-| ----- | ----- | ----- | ----- |
-| <img src="https://github.com/user-attachments/assets/01c8ce90-b543-44c9-a68e-1a4bd27800ad" width="200"/> | <img src="https://github.com/user-attachments/assets/637b12ce-c744-484b-9df1-8c1e75bd6339" width="200"/> | <img src="https://github.com/user-attachments/assets/269c089a-3adc-4b5e-aaf4-e81e14b93a6b" width="200"/> | <img src="https://github.com/user-attachments/assets/52e0d23a-49d2-408c-a468-e40df61d2cde" width="200"/>
+| ---- | ---- | ---- | ---- |
+| <img src="https://github.com/user-attachments/assets/01c8ce90-b543-44c9-a68e-1a4bd27800ad" width="180"/> | <img src="https://github.com/user-attachments/assets/637b12ce-c744-484b-9df1-8c1e75bd6339" width="180"/> | <img src="https://github.com/user-attachments/assets/269c089a-3adc-4b5e-aaf4-e81e14b93a6b" width="180"/> | <img src="https://github.com/user-attachments/assets/52e0d23a-49d2-408c-a468-e40df61d2cde" width="180"/>
 | **오름 목록**<br />- API 기반으로 제공되는 오름 목록을 불러와, 지도 형식과 목록 형식 두 가지로 볼 수 있습니다. | **좋아요 기능**<br />- 관심 있는 오름에 좋아요를 클릭하면 관심 목록에 저장됩니다. | **정복한 오름에 스탬프 찍기**<br />- 오름의 좌표 정보를 기반으로 사용자의 현재 위치가 반경 내에 들어오면 자동으로 스탬프 찍기 기능이 실행됩니다. | **오름 후기 작성**<br />- 각 오름에 대해 간단한 후기 작성 가능<br />- 후기에는 날짜, 작성자(닉네임), 좋아요 수, 댓글 등을 함께 출력합니다. |
 
 <br />
@@ -131,3 +131,4 @@ fun changeFormatTime(times: Long) : String{
     }
 }
 ```
+
